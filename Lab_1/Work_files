@@ -1,0 +1,51 @@
++ mkdir Work
++ cd Work
++ mkdir 'Лабораторная работа №1!' ФИО
++ mkdir 'Контрольная работа №1!'
++ chmod 772 'Контрольная работа №1!'
++ chmod 200 ФИО
++ stat -c '%a %n' 'Контрольная работа №1!' ФИО
++ touch 'Text @1' 'Text $2' 'Text  #3'
++ printf '%s\n' 'Птица говорун отличается умом и сообразительностью!' 'Отличается умом, отличается сообразительностью...'
++ cat 'Text @1'
++ mv 'Text $2' 'Лабораторная работа №1!/'
++ chmod 700 ФИО
++ cp 'Text @1' ФИО/
++ gzip -k 'Text @1' 'Text  #3'
++ tar -cf MyAchiv 'Text @1.gz' 'Text  #3.gz'
++ head -n 1 'Text @1'
++ printf '%s\n' 'Будь осторожен! Преступник вооружен!'
++ tac 'Text @1'
++ mv ФИО/Result_one ФИО/Result_two
++ find ФИО -mindepth 1 -maxdepth 1 -name 'T*' -printf '%f\n'
++ uname -a
++ date
++ printf '%s\n' Монгуш Темир Мергенович
++ ../sandbox/Монгуш
++ ../sandbox/C_version
++ cmp /tmp/lab1_expected.txt /tmp/lab1_asm.txt
++ cmp /tmp/lab1_asm.txt /tmp/lab1_c.txt
++ cmp 'Text @1' 'ФИО/Text @1'
++ cmp 'Text @1' 'Лабораторная работа №1!/Text $2'
++ tac 'Text @1'
++ cmp - ФИО/Result_two
+++ wc -l
++ test 2 -eq 2
++ gzip -t 'Text @1.gz' 'Text  #3.gz'
++ tar -tf MyAchiv
++ grep -q _start ../sandbox/Disassemble
++ grep -q main ../sandbox/Disassemble
++ cat ФИО/Result_two
++ cat 'Лабораторная работа №1!/Result_3'
++ chmod 200 ФИО
++ cd ..
++ mkdir Lab_1
++ mv sandbox Work Work_files Lab_1/
++ set +x
++ chmod 700 Lab_1/Work/ФИО
++ touch 'Lab_1/Work/Контрольная работа №1!/.gitkeep'
++ find Lab_1 -maxdepth 3 -type f
++ git add Lab_1
++ chmod 200 Lab_1/Work/ФИО
++ stat -c '%a %n' Lab_1/Work/ФИО 'Lab_1/Work/Контрольная работа №1!'
++ set +x

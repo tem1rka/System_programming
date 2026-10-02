@@ -1,0 +1,36 @@
+Dump of assembler code for function _start:
+   0x08049000 <+0>:	mov    eax,0x4
+   0x08049005 <+5>:	mov    ebx,0x1
+   0x0804900a <+10>:	mov    ecx,0x804a000
+   0x0804900f <+15>:	mov    edx,0x2d
+   0x08049014 <+20>:	int    0x80
+   0x08049016 <+22>:	mov    eax,0x1
+   0x0804901b <+27>:	mov    ebx,0x0
+   0x08049020 <+32>:	int    0x80
+End of assembler dump.
+Dump of assembler code for function main:
+   0x08049166 <+0>:	lea    ecx,[esp+0x4]
+   0x0804916a <+4>:	and    esp,0xfffffff0
+   0x0804916d <+7>:	push   DWORD PTR [ecx-0x4]
+   0x08049170 <+10>:	push   ebp
+   0x08049171 <+11>:	mov    ebp,esp
+   0x08049173 <+13>:	push   ecx
+   0x08049174 <+14>:	sub    esp,0x4
+   0x08049177 <+17>:	sub    esp,0xc
+   0x0804917a <+20>:	push   0x804a008
+   0x0804917f <+25>:	call   0x8049040 <puts@plt>
+   0x08049184 <+30>:	add    esp,0x10
+   0x08049187 <+33>:	sub    esp,0xc
+   0x0804918a <+36>:	push   0x804a015
+   0x0804918f <+41>:	call   0x8049040 <puts@plt>
+   0x08049194 <+46>:	add    esp,0x10
+   0x08049197 <+49>:	sub    esp,0xc
+   0x0804919a <+52>:	push   0x804a020
+   0x0804919f <+57>:	call   0x8049040 <puts@plt>
+   0x080491a4 <+62>:	add    esp,0x10
+   0x080491a7 <+65>:	mov    eax,0x0
+   0x080491ac <+70>:	mov    ecx,DWORD PTR [ebp-0x4]
+   0x080491af <+73>:	leave
+   0x080491b0 <+74>:	lea    esp,[ecx-0x4]
+   0x080491b3 <+77>:	ret
+End of assembler dump.
